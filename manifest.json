@@ -1,44 +1,28 @@
 {
-  "name": "Shiv Vatika Nursery — SVN Inventory",
+  "name": "SVN Inventory — Shiv Vatika Nursery",
   "short_name": "SVN Inventory",
-  "description": "Shiv Vatika Nursery ka complete inventory management app — Plants, Gamla, Dava, Billing sab ek jagah",
+  "description": "Shiv Vatika Nursery — Plant, Gamla & Dava Inventory Management",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait-primary",
-  "background_color": "#1a4a1a",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
   "theme_color": "#1a4a1a",
   "lang": "hi",
-  "dir": "ltr",
-  "categories": ["business", "productivity"],
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ],
-  "shortcuts": [
-    {
-      "name": "Billing",
-      "short_name": "Bill",
-      "description": "Naya bill banao",
-      "url": "./index.html#billing",
-      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Plant Add",
-      "short_name": "Add Plant",
-      "description": "Naya plant add karo",
-      "url": "./index.html#add",
-      "icons": [{ "src": "icon-192x192.png", "sizes": "192x192" }]
-    }
-  ]
+  "categories": ["business", "productivity"],
+  "screenshots": []
 }
